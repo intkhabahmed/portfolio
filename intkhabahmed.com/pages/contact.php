@@ -1,0 +1,1 @@
+<?php print "Hello this is contact page"; ?>
