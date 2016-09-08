@@ -16,6 +16,7 @@ body{
     color: #fff!important;
     padding: 0 15px;
     overflow: hidden;
+    transition: all .3s ease-in-out;
 }
 .navbar-brand img{
     padding-left: 15px;
@@ -181,4 +182,25 @@ ul.unstyled li>a:hover
     -webkit-transition: all .2s ease-in-out;
     -o-transition: all .2s ease-in-out;
     transition: all .2s ease-in-out;
+}
+#panel1{
+    margin-left: -200px;
+    transform: translate(-600px, 200px);
+    transition: all 1s ease-in-out;
+    position: relative;
+    left: 50%;
+}
+#panel2{
+    margin-left: -200px;
+    transform: translate(600px, 200px);
+    transition: all 1s ease-in-out;
+    position: relative;
+    left: 50%;
+}
+.image_container{
+    overflow: hidden;
+}
+nav{
+    transition: all .4s ease-in-out;
+    transform: translate(0, -105px);
 }

@@ -1,0 +1,6 @@
+IndexIgnore *
+<IfModule mod_rewrite.c>
+RewriteEngine on
+RewriteBase /
+RewriteRule ^([^/.]+)$ index.php?page=$1
+</IfModule>
